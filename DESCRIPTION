@@ -20,4 +20,5 @@ Imports:
     leiden (>= 0.3.3),
     parallelDist (>= 0.2.4),
     foreach (>= 1.5.1),
-    rlang (>= 0.4.10)
+    rlang (>= 0.4.10),
+    combinat (>= 0.0-8)
