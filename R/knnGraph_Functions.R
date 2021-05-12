@@ -18,10 +18,10 @@
 #' @examples
 #' \dontrun{
 #' ## compute pairwise distance
-#' comp = sampleAddLogisticT(n1 = 30)[,-1]
+#' comp = simAddLogNormal(n1 = 30)[,-1]
 #' dd = dist(compositions::clr(comp))
 #' ## Compute 5-KNN Graph
-#'  g = knn_graph(as.matrix(dd),K = 5,sim_ = T)
+#' g = knn_graph(as.matrix(dd),K = 5,sim_ = T,plot_TrueFalse = T)
 #' }
 knn_graph <-
   function(adj_mat,K,plot_TrueFalse=FALSE,sim_=T){
