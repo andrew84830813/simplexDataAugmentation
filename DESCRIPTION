@@ -16,4 +16,8 @@ Imports:
     Matrix (>= 1.2-18),
     selEnergyPermR,
     igraph (>= 1.2.5),
-    dplyr (>= 1.0.2)
+    dplyr (>= 1.0.2),
+    leiden (>= 0.3.3),
+    parallelDist (>= 0.2.4),
+    foreach (>= 1.5.1),
+    rlang (>= 0.4.10)

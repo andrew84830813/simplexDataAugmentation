@@ -3,4 +3,6 @@
 export(knn_graph)
 export(sampleAddLogisticT)
 export(simAddLogNormal)
+export(simCompData)
 export(simDirDistr)
+importFrom(foreach,"%dopar%")

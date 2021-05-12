@@ -19,7 +19,7 @@ knn_graph(adj_mat, K, plot_TrueFalse = FALSE, sim_ = T)
 A list containing:\tabular{ll}{
    \code{Graph} \tab the igraph graph object  \cr
    \tab \cr
-   \code{adj} \tab The KFN or KNN weighted adjacency matrix \cr
+   \code{adj} \tab The KFN or KNN weighted adjacency matrix
 }
 }
 \description{
