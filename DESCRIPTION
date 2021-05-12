@@ -14,4 +14,6 @@ Imports:
     compositions (>= 2.0-0),
     mvtnorm (>= 1.1-0),
     Matrix (>= 1.2-18),
-    selEnergyPermR
+    selEnergyPermR,
+    igraph (>= 1.2.5),
+    dplyr (>= 1.0.2)
