@@ -1,4 +1,6 @@
-#' Alter Mulitvariate Dispersion of Point CLoud in SImplex
+#' Alters Mulitvariate Dispersion of Point CLoud within Simplex
+#'
+#' @importFrom foreach %dopar%
 #'
 #' @param tbl2 a closed and imputed data matrix of points cloud
 #' @param dispFact Factor to increase (dispFact>0) or decrease (dispFact<0) dispersion by

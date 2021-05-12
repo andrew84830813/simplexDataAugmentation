@@ -2,7 +2,7 @@
 % Please edit documentation in R/dispersionShiftFunction.R
 \name{dispersionShift}
 \alias{dispersionShift}
-\title{Alter Mulitvariate Dispersion of Point CLoud in SImplex}
+\title{Alters Mulitvariate Dispersion of Point CLoud within Simplex}
 \usage{
 dispersionShift(tbl2, dispFact = 1)
 }
@@ -23,5 +23,5 @@ A list containing:\tabular{ll}{
 }
 }
 \description{
-Alter Mulitvariate Dispersion of Point CLoud in SImplex
+Alters Mulitvariate Dispersion of Point CLoud within Simplex
 }
