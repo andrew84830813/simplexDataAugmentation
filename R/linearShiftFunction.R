@@ -137,6 +137,9 @@ linearShift = function(tbl2,pertubationDirection = NULL,directionType = "centroi
       pertb = c1.evDir
     }
 
+  }else{
+    pertb = pertubationDirection
+    names(pertb) = names(compMean.shifted)
   }
 
   ### -----------------------------------------*

@@ -14,11 +14,11 @@ Imports:
     compositions (>= 2.0-0),
     mvtnorm (>= 1.1-0),
     Matrix (>= 1.2-18),
-    selEnergyPermR,
     igraph (>= 1.2.5),
     dplyr (>= 1.0.2),
     leiden (>= 0.3.3),
     parallelDist (>= 0.2.4),
     foreach (>= 1.5.1),
     rlang (>= 0.4.10),
-    combinat (>= 0.0-8)
+    combinat (>= 0.0-8),
+    selEnergyPermR
